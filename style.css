@@ -171,6 +171,8 @@ section {
 
 .section__pic-container {
   display: flex;
+  height: 400px;
+  width: 400px;
   margin: auto 0;
   .circular-image {
     width: 400px; /* Set the desired width */
