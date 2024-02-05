@@ -174,12 +174,13 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
-  .circular-image {
-    width: 400px; /* Set the desired width */
-    height: 400px; /* Set the desired height */
-    border-radius: 50%; /* Make it a circle */
-    overflow: hidden; /* Hide overflowing parts if any */
+.image-with-curved-edges {
+    border-radius: 20px 20px 20px 20px; /* top-left, top-right, bottom-right, bottom-left */
+    overflow: hidden; /* Ensures the curved corners are visible */
   }
+  
+  
+  
 }
 
 .section__text {
